@@ -1,0 +1,99 @@
+/* style body by adding background image and set it to cover, add font family */
+body {
+    background: url("/images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+/* style brand */
+.logo {
+    width: 4rem;
+    height: 4rem;
+}
+/* style nav bar */
+.navbar {
+    background-color: #000000;
+    opacity: 80%;
+}
+
+.nav-items {
+}
+
+.item {
+    margin-right: 1rem;
+    padding: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: #70F7C2;
+    border-bottom: solid 1px #70F7C2;
+}
+/* style jumbotron */
+.jumbotron {
+    color: #D1D2D5;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+/* limit width of icons section */
+/* style icons section using grid system */
+
+.card-group {
+    margin-top: 5rem;
+}
+
+.card-group:last-child {
+    margin-right: 0;
+}
+
+.card {
+    text-align: center;
+    color: #D1D2D5;
+    background: none;
+}
+
+.icon {
+    height: 10rem;
+    width: 10rem;
+}
+
+/* style contact btn */
+.contact-btn {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 1rem;
+    color: black;
+    width: 15rem;
+    opacity: 80%;
+    background-color: #70F7C2;
+}
+
+.btn:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    color: #D1D2D5;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* style footer  */
+
+/* media query to change size of icons in small devices */
+@media (min-width: 480px) and (max-width: 786px) {
+    .item {
+        padding: 0.5rem;
+    }
+}
